@@ -1,6 +1,6 @@
 # PythonQuestions
 
-###1.What are the key features of Python?
+### 1.What are the key features of Python?
 
 Python is one of the most popular programming languages used by data scientists and AIML professionals. This popularity is due to the following key features of Python:
 
@@ -11,7 +11,7 @@ It can be used across different languages
 It is an object-oriented language which supports concepts of classes
 It can be easily integrated with other languages like C++, Java and more
 
-###2. What are Keywords in Python?
+### 2. What are Keywords in Python?
 Keywords in Python are reserved words which are used as identifiers, function name or variable name. They help define the structure and syntax of the language.
 
 There are a total of 33 keywords in Python 3.7 which can change in the next version, i.e., Python 3.8. A list of all the keywords is provided below:
@@ -27,7 +27,7 @@ assert	else	import	pass
 break	except
 
 
-###3. What are Literals in Python and explain about different Literals?
+### 3. What are Literals in Python and explain about different Literals?
 Literals in Python refer to the data that is given in a variable or constant. Python has various kinds of literals including:
 
 String Literals: It is a sequence of characters enclosed in codes. There can be single, double and triple strings based on the number of quotes used. Character literals are single characters surrounded by single or double-quotes.
@@ -37,7 +37,7 @@ Special Literals: Special literals are sued to classify fields that are not crea
 Python Interview Questions PDF
 
 
-###4. How can you concatenate two tuples?
+### 4. How can you concatenate two tuples?
 Solution ->
 
     Let’s say we have two tuples like this ->
@@ -70,5 +70,5 @@ Similarly, let’s concatenate tuple1 with tuple2:
     Output
 
 
-###5. What are functions in Python?
+### 5. What are functions in Python?
 Ans: Functions in Python refer to blocks that have organised, and reusable codes to perform single, and related events. Functions are important to create better modularity for applications which reuse high degree of coding. Python has a number of built-in functions like print(). However, it also allows you to create user-defined functions.
