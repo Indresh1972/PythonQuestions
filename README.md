@@ -73,10 +73,10 @@ Similarly, let’s concatenate tuple1 with tuple2:
 ### 5. What are functions in Python?
 Ans: Functions in Python refer to blocks that have organised, and reusable codes to perform single, and related events. Functions are important to create better modularity for applications which reuse high degree of coding. Python has a number of built-in functions like print(). However, it also allows you to create user-defined functions.
 
-### 9. What is Pandas?
+### 6. What is Pandas?
 Pandas is an open source python library which has a very rich set of data structures for data based operations. Pandas with it’s cool features fits in every role of data operation, whether it be academics or solving complex business problems. Pandas can deal with a large variety of files and is one of the most important tools to have a grip on.
 
-### 11. What is a Pandas Series?
+### 7. What is a Pandas Series?
 Series is a one dimensional pandas data structure which can data of almost any type. It resembles an excel column. It supports multiple operations and is used for single dimensional data operations.
 
 Creating a series from data:
@@ -89,7 +89,7 @@ Code
     print(series)
     print(type(series))
 
-### 12. What is pandas groupby?
+### 8. What is pandas groupby?
 A pandas groupby is a feature supported by pandas which is used to split and group an object.  Like the sql/mysql/oracle groupby it used to group data by classes, entities which can be further used for aggregation. A dataframe can be grouped by one or more columns.
 
 Code
