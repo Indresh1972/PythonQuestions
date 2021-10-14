@@ -217,3 +217,28 @@ In Python, there are no in-built functions that help us reverse a string. We nee
     1
     str_reverse = string[::-1]
     Learn more: How To Reverse a String In Python
+    
+### 32.What are the built-in types of python?
+Ans: Built-in types in Python are as follows –
+
+Integers
+Floating-point
+Complex numbers
+Strings
+Boolean
+Built-in functions
+
+### 33.How to remove values to a python array?
+Ans: Array elements can be removed using pop() or remove() method. The difference between these two functions is that the former returns the deleted value whereas the latter does not.
+
+### 34.Does Python have OOps concepts?
+Ans: Python is an object-oriented programming language. This means that any program can be solved in python by creating an object model. However, Python can be treated as procedural as well as structural language.
+
+### 35. How is Multithreading achieved in Python?
+Ans: 
+
+Python has a multi-threading package but if you want to multi-thread to speed your code up, then it’s usually not a good idea to use it.
+Python has a construct called the Global Interpreter Lock (GIL). The GIL makes sure that only one of your ‘threads’ can execute at any one time. A thread acquires the GIL, does a little work, then passes the GIL onto the next thread.
+This happens very quickly so to the human eye it may seem like your threads are executing in parallel, but they are really just taking turns using the same CPU core.
+All this GIL passing adds overhead to execution. This means that if you want to make your code run faster then using the threading package often isn’t a good idea.
+
