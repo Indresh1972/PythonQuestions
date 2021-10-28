@@ -269,3 +269,32 @@ def facto(n):
 if n==1: return 1
 return n*facto(n-1)
 facto(4)
+
+### 40. What are functions in Python?
+
+Ans: Functions in Python refer to blocks that have organised, and reusable codes to perform single, and related events. Functions are important to create better modularity for applications which reuse high degree of coding. Python has a number of built-in functions like print(). However, it also allows you to create user-defined functions.
+
+### 41.What are negative indices?
+
+Let’s take a list for this.
+
+mylist=[0,1,2,3,4,5,6,7,8]
+A negative index, unlike a positive one, begins searching from the right.
+
+mylist[-3]
+
+### 41. How would you convert a string into lowercase?
+
+We use the lower() method for this.
+
+'AyuShi'.lower()
+‘ayushi’
+
+To convert it into uppercase, then, we use upper().
+
+### 42.  What is the pass statement in Python?
+
+There may be times in our code when we haven’t decided what to do yet, but we must type something for it to be syntactically correct. In such a case, we use the pass statement.
+
+def func(*args):
+pass
