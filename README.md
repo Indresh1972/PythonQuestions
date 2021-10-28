@@ -251,3 +251,21 @@ len('Ayushi Sharma')
 ### 37. Explain Python List Comprehension.
 
 The list comprehension in python is a way to declare a list in one line of code. Let’s take a look at one such example.
+
+### 38. What does the function zip() do?
+
+One of the less common functions with beginners, zip() returns an iterator of tuples.
+
+>>> list(zip(['a','b','c'],[1,2,3]))
+[(‘a’, 1), (‘b’, 2), (‘c’, 3)]
+
+### 39. What is recursion?
+
+When a function makes a call to itself, it is termed recursion. But then, in order for it to avoid forming an infinite loop, we must have a base condition.
+
+Let’s take an example.
+
+>>> def facto(n):
+if n==1: return 1
+return n*facto(n-1)
+>>> facto(4)
