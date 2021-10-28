@@ -242,3 +242,12 @@ Python has a construct called the Global Interpreter Lock (GIL). The GIL makes s
 This happens very quickly so to the human eye it may seem like your threads are executing in parallel, but they are really just taking turns using the same CPU core.
 All this GIL passing adds overhead to execution. This means that if you want to make your code run faster then using the threading package often isn’t a good idea.
 
+### 36. How do you calculate the length of a string?
+
+This is simple. We call the function len() on the string we want to calculate the length of.
+
+len('Ayushi Sharma')
+
+### 37. Explain Python List Comprehension.
+
+The list comprehension in python is a way to declare a list in one line of code. Let’s take a look at one such example.
