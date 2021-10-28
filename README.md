@@ -256,7 +256,7 @@ The list comprehension in python is a way to declare a list in one line of code.
 
 One of the less common functions with beginners, zip() returns an iterator of tuples.
 
->>> list(zip(['a','b','c'],[1,2,3]))
+list(zip(['a','b','c'],[1,2,3]))
 [(‘a’, 1), (‘b’, 2), (‘c’, 3)]
 
 ### 39. What is recursion?
@@ -265,7 +265,7 @@ When a function makes a call to itself, it is termed recursion. But then, in ord
 
 Let’s take an example.
 
->>> def facto(n):
+def facto(n):
 if n==1: return 1
 return n*facto(n-1)
->>> facto(4)
+facto(4)
